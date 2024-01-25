@@ -24,8 +24,8 @@ export function formatPrice(
   }).format(numericPrice)
 }
 export function constructMetadata({
-  title = 'DigitalHippo - the marketplace for digital assets',
-  description = 'DigitalHippo is an open-source marketplace for high-quality digital goods.',
+  title = 'HippoCons - the marketplace for digital assets',
+  description = 'HippoCons is an open-source marketplace for high-quality digital goods.',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
   noIndex = false,
