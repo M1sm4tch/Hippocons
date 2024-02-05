@@ -15,7 +15,7 @@ interface ProductListingprops {
 
 const ProductListing = ({product, index}: ProductListingprops) => {
   const [isVisible,setIsVisible] = useState<boolean>(false)
-
+  console.log(product)
   useEffect(()=>{
     const timer = setTimeout(()=>{
         setIsVisible(true)

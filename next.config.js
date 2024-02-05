@@ -3,7 +3,7 @@ const nextConfig = {
 	images: {
 		domains: [
 			'localhost',
-			'hippocons-production.up.railway.app',
+			'hippocons.up.railway.app',
 		]
 	},
 };
